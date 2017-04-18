@@ -1,0 +1,55 @@
+#RBP means any of the RIP-seq fasta files
+
+##Bowtie-build
+
+# Genome was is 17 parts, each part was stated and seperated by a "," no spaced.
+bowtie-build -C -f ~/EF4.genome.parts > ~/EF4.
+# this created 5 reference genome 
+# -C makes references in colourspace
+# -f reads for fasta files as input
+
+## Bowtie-inspect
+
+# inpsects the 6 reference files are in colourspace
+bowtie-inspect EF4.
+
+## Bowtie
+
+# run read alignments 
+bowtie -C -a -m 1 -n 3 -y e 70 l 28 ~/EF4. ~/RBP.fasta -S RBP.sam
+# -C sees in colourspace
+# -a reports at the end of the code
+# -m 1 only reads with 1 or fewer reportable alignments are reported
+# -n 3 allows for at least 3 mismatches in the seed
+# -y bowtie will backtrack many times to get as many counts as possible
+# -e 70 maximum quality blues at all mismatched reads in entire alignments
+# -l 28 size of "seed" of a read alignment
+# -S makes sam.files
+
+##samtools view
+
+# sam.files were converted to more manaeagable formats
+samtools view -bS -o ~/RBP.bam ~/RBP.sam
+# -bS reads sam.file and make bam.file
+# -o output to file
+
+##samtools sort
+
+~/RBP.bam, ~/RBP.sorted
+
+##indexing
+
+#keeps a log of samtools output
+samtools index RBP.sorted.bam
+samtools idxstats RBP.sorted.bam
+
+##htseq
+
+#make read counts
+htseq-count --format=bam --order=pos --quiet --stranded=yes ~/RBP.sorted.bam ~/transcript.gtf > ~/RBP.count.txt
+# --format=bam input is bam
+# --order=pos how the input data is sorted
+# --quiet supress progress reports and warnings
+# --stranded=yes data is strand specific 
+
+
