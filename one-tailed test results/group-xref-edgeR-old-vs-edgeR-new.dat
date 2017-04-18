@@ -1,0 +1,63 @@
+orig gp:	 1	 193 genes	   8 -> 2B : 111 -> 2C :  72 -> 3B :   2 -> unk :
+orig gp:	 2	 196 genes	  13 -> 2A :   3 -> 2B :  20 -> 2C :   7 -> 3A : 145 -> 3B :   8 -> unk :
+orig gp:	3A	 246 genes	   5 -> 2A : 188 -> 2B :  43 -> 2C :  10 -> unk :
+orig gp:	3B	 149 genes	 119 -> 2B :  13 -> 2C :  17 -> unk :
+orig gp:	4A	 630 genes	  35 ->  1 :  12 -> 2A : 436 -> 2B :  50 -> 2C :   1 -> 3A :  96 -> unk :
+orig gp:	4B	1015 genes	 144 ->  1 :  26 -> 2A :  28 -> 2B :  29 -> 2C : 573 -> 3A :  36 -> 3B : 179 -> unk :
+orig gp:	4C	 338 genes	   5 -> 2A :   2 -> 2C : 170 -> 3A :  93 -> 3B :  68 -> unk :
+ogroup:  1	  matched-groups 1 2A 2B 2C 3A 3B unk 
+ogroup:   1  lgroup:   1  exp:    16.8 (008.7%) obs:     0 (000.0%) s.d.:  3.77  zscore:  -4.5  pval:  8.6e-06
+ogroup:   1  lgroup:  2A  exp:     6.8 (003.5%) obs:     0 (000.0%) s.d.:  2.38  zscore:  -2.9  pval:  4.2e-03
+ogroup:   1  lgroup:  2B  exp:    59.2 (030.7%) obs:     8 (004.1%) s.d.:  6.24  zscore:  -8.2  pval:  2.2e-16
+ogroup:   1  lgroup:  2C  exp:    25.1 (013.0%) obs:   111 (057.5%) s.d.:  4.50  zscore:  19.1  pval:  0.0e+00 ***
+ogroup:   1  lgroup:  3A  exp:    56.3 (029.2%) obs:     0 (000.0%) s.d.:  6.24  zscore:  -9.0  pval:  1.9e-19
+ogroup:   1  lgroup:  3B  exp:    26.8 (013.9%) obs:    72 (037.3%) s.d.:  4.71  zscore:   9.6  pval:  0.0e+00 ***
+ogroup:   1  lgroup: unk  exp:     2.0 (001.0%) obs:     2 (001.0%) s.d.:  0.00  zscore:   0.0  pval:  0.0e+00
+ogroup:  2	  matched-groups 1 2A 2B 2C 3A 3B unk 
+ogroup:   2  lgroup:   1  exp:    16.5 (008.4%) obs:     0 (000.0%) s.d.:  3.72  zscore:  -4.4  pval:  8.7e-06
+ogroup:   2  lgroup:  2A  exp:     6.9 (003.5%) obs:    13 (006.6%) s.d.:  2.41  zscore:   2.5  pval:  1.1e-02
+ogroup:   2  lgroup:  2B  exp:    58.1 (029.7%) obs:     3 (001.5%) s.d.:  6.12  zscore:  -9.0  pval:  2.3e-19
+ogroup:   2  lgroup:  2C  exp:    24.7 (012.6%) obs:    20 (010.2%) s.d.:  4.50  zscore:  -1.0  pval:  3.0e-01
+ogroup:   2  lgroup:  3A  exp:    55.5 (028.3%) obs:     7 (003.6%) s.d.:  6.09  zscore:  -8.0  pval:  1.9e-15
+ogroup:   2  lgroup:  3B  exp:    26.3 (013.4%) obs:   145 (074.0%) s.d.:  4.74  zscore:  25.1  pval:  0.0e+00 ***
+ogroup:   2  lgroup: unk  exp:     8.0 (004.1%) obs:     8 (004.1%) s.d.:  0.00  zscore:   0.0  pval:  0.0e+00
+ogroup:  3A	  matched-groups 1 2A 2B 2C 3A 3B unk 
+ogroup:  3A  lgroup:   1  exp:    20.8 (008.5%) obs:     0 (000.0%) s.d.:  4.19  zscore:  -5.0  pval:  6.9e-07
+ogroup:  3A  lgroup:  2A  exp:     8.4 (003.4%) obs:     5 (002.0%) s.d.:  2.73  zscore:  -1.2  pval:  2.1e-01
+ogroup:  3A  lgroup:  2B  exp:    73.1 (029.7%) obs:   188 (076.4%) s.d.:  6.95  zscore:  16.5  pval:  0.0e+00 ***
+ogroup:  3A  lgroup:  2C  exp:    31.0 (012.6%) obs:    43 (017.5%) s.d.:  4.98  zscore:   2.4  pval:  1.6e-02
+ogroup:  3A  lgroup:  3A  exp:    69.4 (028.2%) obs:     0 (000.0%) s.d.:  6.67  zscore: -10.4  pval:  2.1e-25
+ogroup:  3A  lgroup:  3B  exp:    33.3 (013.5%) obs:     0 (000.0%) s.d.:  5.03  zscore:  -6.6  pval:  3.7e-11
+ogroup:  3A  lgroup: unk  exp:    10.0 (004.1%) obs:    10 (004.1%) s.d.:  0.00  zscore:   0.0  pval:  0.0e+00
+ogroup:  3B	  matched-groups 1 2A 2B 2C 3A 3B unk 
+ogroup:  3B  lgroup:   1  exp:    11.6 (007.8%) obs:     0 (000.0%) s.d.:  3.07  zscore:  -3.8  pval:  1.6e-04
+ogroup:  3B  lgroup:  2A  exp:     4.8 (003.2%) obs:     0 (000.0%) s.d.:  2.00  zscore:  -2.4  pval:  1.8e-02
+ogroup:  3B  lgroup:  2B  exp:    40.8 (027.4%) obs:   119 (079.9%) s.d.:  4.96  zscore:  15.8  pval:  0.0e+00 ***
+ogroup:  3B  lgroup:  2C  exp:    17.5 (011.8%) obs:    13 (008.7%) s.d.:  3.78  zscore:  -1.2  pval:  2.3e-01
+ogroup:  3B  lgroup:  3A  exp:    38.7 (026.0%) obs:     0 (000.0%) s.d.:  5.01  zscore:  -7.7  pval:  1.1e-14
+ogroup:  3B  lgroup:  3B  exp:    18.6 (012.5%) obs:     0 (000.0%) s.d.:  3.98  zscore:  -4.7  pval:  2.8e-06
+ogroup:  3B  lgroup: unk  exp:    17.0 (011.4%) obs:    17 (011.4%) s.d.:  0.00  zscore:   0.0  pval:  0.0e+00
+ogroup:  4A	  matched-groups 1 2A 2B 2C 3A 3B unk 
+ogroup:  4A  lgroup:   1  exp:    47.1 (007.5%) obs:    35 (005.6%) s.d.:  6.17  zscore:  -2.0  pval:  4.9e-02
+ogroup:  4A  lgroup:  2A  exp:    19.3 (003.1%) obs:    12 (001.9%) s.d.:  3.82  zscore:  -1.9  pval:  5.5e-02
+ogroup:  4A  lgroup:  2B  exp:   164.9 (026.2%) obs:   436 (069.2%) s.d.:  9.70  zscore:  28.0  pval:  0.0e+00 ***
+ogroup:  4A  lgroup:  2C  exp:    69.8 (011.1%) obs:    50 (007.9%) s.d.:  6.72  zscore:  -3.0  pval:  3.2e-03
+ogroup:  4A  lgroup:  3A  exp:   157.4 (025.0%) obs:     1 (000.2%) s.d.:  9.62  zscore: -16.3  pval:  1.6e-59
+ogroup:  4A  lgroup:  3B  exp:    75.4 (012.0%) obs:     0 (000.0%) s.d.:  7.08  zscore: -10.6  pval:  1.8e-26
+ogroup:  4A  lgroup: unk  exp:    96.0 (015.2%) obs:    96 (015.2%) s.d.:  0.00  zscore:   0.0  pval:  0.0e+00
+ogroup:  4B	  matched-groups 1 2A 2B 2C 3A 3B unk 
+ogroup:  4B  lgroup:   1  exp:    73.8 (007.3%) obs:   144 (014.2%) s.d.:  7.10  zscore:   9.9  pval:  0.0e+00 ***
+ogroup:  4B  lgroup:  2A  exp:    30.2 (003.0%) obs:    26 (002.6%) s.d.:  4.64  zscore:  -0.9  pval:  3.7e-01
+ogroup:  4B  lgroup:  2B  exp:   259.0 (025.5%) obs:    28 (002.8%) s.d.: 11.34  zscore: -20.4  pval:  3.3e-92
+ogroup:  4B  lgroup:  2C  exp:   110.3 (010.9%) obs:    29 (002.9%) s.d.:  8.16  zscore: -10.0  pval:  2.4e-23
+ogroup:  4B  lgroup:  3A  exp:   245.0 (024.1%) obs:   573 (056.5%) s.d.: 10.95  zscore:  30.0  pval:  0.0e+00 ***
+ogroup:  4B  lgroup:  3B  exp:   117.9 (011.6%) obs:    36 (003.5%) s.d.:  8.42  zscore:  -9.7  pval:  2.6e-22
+ogroup:  4B  lgroup: unk  exp:   179.0 (017.6%) obs:   179 (017.6%) s.d.:  0.00  zscore:   0.0  pval:  0.0e+00
+ogroup:  4C	  matched-groups 1 2A 2B 2C 3A 3B unk 
+ogroup:  4C  lgroup:   1  exp:    23.7 (007.0%) obs:     0 (000.0%) s.d.:  4.61  zscore:  -5.1  pval:  2.8e-07
+ogroup:  4C  lgroup:  2A  exp:     9.9 (002.9%) obs:     5 (001.5%) s.d.:  2.97  zscore:  -1.7  pval:  9.7e-02
+ogroup:  4C  lgroup:  2B  exp:    83.6 (024.7%) obs:     0 (000.0%) s.d.:  7.37  zscore: -11.3  pval:  7.9e-30
+ogroup:  4C  lgroup:  2C  exp:    35.4 (010.5%) obs:     2 (000.6%) s.d.:  5.24  zscore:  -6.4  pval:  1.9e-10
+ogroup:  4C  lgroup:  3A  exp:    79.2 (023.4%) obs:   170 (050.3%) s.d.:  7.23  zscore:  12.6  pval:  0.0e+00 ***
+ogroup:  4C  lgroup:  3B  exp:    38.2 (011.3%) obs:    93 (027.5%) s.d.:  5.50  zscore:   9.9  pval:  0.0e+00 ***
+ogroup:  4C  lgroup: unk  exp:    68.0 (020.1%) obs:    68 (020.1%) s.d.:  0.00  zscore:   0.0  pval:  0.0e+00

@@ -1,0 +1,42 @@
+orig gp:	 1	 258 genes	  17 -> 1A : 134 -> 1B :  15 -> 1C :  23 ->  2 :  69 -> unk :
+orig gp:	2A	 106 genes	  10 -> 1A :  30 -> 1B :   9 -> 1C :  10 ->  2 :  47 -> unk :
+orig gp:	2B	 908 genes	  54 -> 1A : 633 -> 1B :  41 -> 1C :  37 ->  2 : 143 -> unk :
+orig gp:	2C	 386 genes	  29 -> 1A : 222 -> 1B :  27 -> 1C :  25 ->  2 :  83 -> unk :
+orig gp:	3A	 862 genes	  63 -> 1A : 155 -> 1B :  41 -> 1C :  90 ->  2 : 513 -> unk :
+orig gp:	3B	 413 genes	  29 -> 1A :  91 -> 1B :  29 -> 1C :  52 ->  2 : 212 -> unk :
+ogroup:  1	  matched-groups 1A 1B 1C 2 unk 
+ogroup:   1  lgroup:  1A  exp:    23.3 (009.0%) obs:    17 (006.6%) s.d.:  4.37  zscore:  -1.4  pval:  1.5e-01
+ogroup:   1  lgroup:  1B  exp:   120.1 (046.6%) obs:   134 (051.9%) s.d.:  6.58  zscore:   2.1  pval:  3.5e-02
+ogroup:   1  lgroup:  1C  exp:    20.3 (007.9%) obs:    15 (005.8%) s.d.:  4.31  zscore:  -1.2  pval:  2.2e-01
+ogroup:   1  lgroup:   2  exp:    25.3 (009.8%) obs:    23 (008.9%) s.d.:  4.36  zscore:  -0.5  pval:  6.0e-01
+ogroup:   1  lgroup: unk  exp:    69.0 (026.7%) obs:    69 (026.7%) s.d.:  0.00  zscore:   0.0  pval:  0.0e+00
+ogroup:  2A	  matched-groups 1A 1B 1C 2 unk 
+ogroup:  2A  lgroup:  1A  exp:     7.3 (006.9%) obs:    10 (009.4%) s.d.:  2.55  zscore:   1.0  pval:  3.0e-01
+ogroup:  2A  lgroup:  1B  exp:    37.5 (035.4%) obs:    30 (028.3%) s.d.:  3.75  zscore:  -2.0  pval:  4.6e-02
+ogroup:  2A  lgroup:  1C  exp:     6.3 (006.0%) obs:     9 (008.5%) s.d.:  2.25  zscore:   1.2  pval:  2.4e-01
+ogroup:  2A  lgroup:   2  exp:     7.9 (007.4%) obs:    10 (009.4%) s.d.:  2.62  zscore:   0.8  pval:  4.1e-01
+ogroup:  2A  lgroup: unk  exp:    47.0 (044.3%) obs:    47 (044.3%) s.d.:  0.00  zscore:   0.0  pval:  0.0e+00
+ogroup:  2B	  matched-groups 1A 1B 1C 2 unk 
+ogroup:  2B  lgroup:  1A  exp:    94.1 (010.4%) obs:    54 (005.9%) s.d.:  8.07  zscore:  -5.0  pval:  6.8e-07
+ogroup:  2B  lgroup:  1B  exp:   485.8 (053.5%) obs:   633 (069.7%) s.d.: 12.11  zscore:  12.2  pval:  0.0e+00 ***
+ogroup:  2B  lgroup:  1C  exp:    82.9 (009.1%) obs:    41 (004.5%) s.d.:  7.86  zscore:  -5.3  pval:  1.0e-07
+ogroup:  2B  lgroup:   2  exp:   102.3 (011.3%) obs:    37 (004.1%) s.d.:  8.05  zscore:  -8.1  pval:  5.3e-16
+ogroup:  2B  lgroup: unk  exp:   143.0 (015.7%) obs:   143 (015.7%) s.d.:  0.00  zscore:   0.0  pval:  0.0e+00
+ogroup:  2C	  matched-groups 1A 1B 1C 2 unk 
+ogroup:  2C  lgroup:  1A  exp:    37.0 (009.6%) obs:    29 (007.5%) s.d.:  5.47  zscore:  -1.5  pval:  1.4e-01
+ogroup:  2C  lgroup:  1B  exp:   192.6 (049.9%) obs:   222 (057.5%) s.d.:  7.90  zscore:   3.7  pval:  2.0e-04 ***
+ogroup:  2C  lgroup:  1C  exp:    32.9 (008.5%) obs:    27 (007.0%) s.d.:  5.11  zscore:  -1.2  pval:  2.5e-01
+ogroup:  2C  lgroup:   2  exp:    40.5 (010.5%) obs:    25 (006.5%) s.d.:  5.49  zscore:  -2.8  pval:  4.8e-03
+ogroup:  2C  lgroup: unk  exp:    83.0 (021.5%) obs:    83 (021.5%) s.d.:  0.00  zscore:   0.0  pval:  0.0e+00
+ogroup:  3A	  matched-groups 1A 1B 1C 2 unk 
+ogroup:  3A  lgroup:  1A  exp:    42.9 (005.0%) obs:    63 (007.3%) s.d.:  5.90  zscore:   3.4  pval:  6.6e-04 ***
+ogroup:  3A  lgroup:  1B  exp:   221.9 (025.7%) obs:   155 (018.0%) s.d.:  8.91  zscore:  -7.5  pval:  5.9e-14
+ogroup:  3A  lgroup:  1C  exp:    37.6 (004.4%) obs:    41 (004.8%) s.d.:  5.70  zscore:   0.6  pval:  5.6e-01
+ogroup:  3A  lgroup:   2  exp:    46.5 (005.4%) obs:    90 (010.4%) s.d.:  6.12  zscore:   7.1  pval:  1.2e-12 ***
+ogroup:  3A  lgroup: unk  exp:   513.0 (059.5%) obs:   513 (059.5%) s.d.:  0.00  zscore:   0.0  pval:  0.0e+00
+ogroup:  3B	  matched-groups 1A 1B 1C 2 unk 
+ogroup:  3B  lgroup:  1A  exp:    24.8 (006.0%) obs:    29 (007.0%) s.d.:  4.52  zscore:   0.9  pval:  3.5e-01
+ogroup:  3B  lgroup:  1B  exp:   127.6 (030.9%) obs:    91 (022.0%) s.d.:  6.48  zscore:  -5.6  pval:  1.6e-08
+ogroup:  3B  lgroup:  1C  exp:    21.7 (005.3%) obs:    29 (007.0%) s.d.:  4.35  zscore:   1.7  pval:  9.3e-02
+ogroup:  3B  lgroup:   2  exp:    26.9 (006.5%) obs:    52 (012.6%) s.d.:  4.53  zscore:   5.5  pval:  3.1e-08 ***
+ogroup:  3B  lgroup: unk  exp:   212.0 (051.3%) obs:   212 (051.3%) s.d.:  0.00  zscore:   0.0  pval:  0.0e+00
